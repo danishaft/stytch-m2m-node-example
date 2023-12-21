@@ -3,7 +3,6 @@ const dotenv = require('dotenv');
 const stytch = require('stytch');
 
 dotenv.config();
-
 //stytch
 const client = new stytch.Client({
   project_id: process.env.STYTCH_PROJECT_ID,
